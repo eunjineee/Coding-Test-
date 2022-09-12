@@ -1,7 +1,7 @@
 n = int(input())
 a = [0,0,0]
 num = 0
-while a != [n,0,0]:
+while a != [n+1,0,0]:
     if a[2] != 59:
         a[2] += 1
     else:
